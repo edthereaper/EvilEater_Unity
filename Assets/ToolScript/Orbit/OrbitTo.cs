@@ -5,17 +5,17 @@ using System.Collections;
 public class OrbitTo : MonoBehaviour {
 
 	public Transform pivotTransform = null;
-	private Transform meTransform = null;
-	private Quaternion destRot = Quaternion.identity;
+
 	// distance from the pivot
 	public float pivotDistance = 5f;
 	public float rotSpeed = 10f;
 
 	private float rotX = 0f;
 	private float rotY = 0f;
-
 	private float prevMouseX = 0f;
 	private float prevMouseY = 0f;
+	private Transform meTransform = null;
+	private Quaternion destRot = Quaternion.identity;
 
 
 	// Use this for initialization
@@ -30,15 +30,9 @@ public class OrbitTo : MonoBehaviour {
 		float vert = (Input.mousePosition.y - Screen.height / 2) / Screen.height;
 
 		if (this.prevMouseX != horz || this.prevMouseY != vert) {
-//			
-//			float rateMouseX = horz - this.prevMouseX;
-//			float rateMouseY = vert - this.prevMouseY;
-//			 
-//			this.rotX = rateMouseX * Time.deltaTime * this.rotSpeed;
-//			this.rotY = rateMouseY * Time.deltaTime * this.rotSpeed;
 
-			this.rotX += horz * Time.deltaTime * this.rotSpeed;
-			this.rotY += vert * Time.deltaTime * this.rotSpeed;
+			this.rotX += -vert * Time.deltaTime * this.rotSpeed;
+			this.rotY += horz * Time.deltaTime * this.rotSpeed;
 
 			Quaternion yRot = Quaternion.Euler (0, this.rotY, 0);
 			this.destRot = yRot * Quaternion.Euler (this.rotX, 0, 0);
@@ -46,14 +40,14 @@ public class OrbitTo : MonoBehaviour {
 			this.meTransform.rotation = this.destRot;
 
 			this.meTransform.position = 
-				this.pivotTransform.transform.position +
-				this.meTransform.rotation *
-				Vector3.up *
-				-this.pivotDistance;
+				this.pivotTransform.transform.position + // poosition target
+				this.meTransform.rotation * 			 // rotation camera
+				Vector3.up *							 // up
+				-this.pivotDistance;					 // distance
 	
-			this.prevMouseX = horz;
-			this.prevMouseY = vert;
-//
+			this.prevMouseX = Screen.width / 2;
+			this.prevMouseY = Screen.height / 2;
+
 		}
 	}
 }

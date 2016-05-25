@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\MouseInput.cs" />
      <Compile Include="Assets\ToolScript\Gizmo\GismoShow.cs" />
      <Compile Include="Assets\ToolScript\Gizmo\GizmoDirection.cs" />
+     <Compile Include="Assets\ToolScript\Orbit\CameraPosition.cs" />
      <Compile Include="Assets\ToolScript\Orbit\OrbitTo.cs" />
      <Compile Include="Assets\ToolScript\Rotation\RotateTo.cs" />
      <Compile Include="Assets\ToolScript\Rotation\RotateToTarget.cs" />
