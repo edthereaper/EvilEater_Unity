@@ -54,6 +54,7 @@
      <Compile Include="Assets\ToolScript\Rotation\RotateTo.cs" />
      <Compile Include="Assets\ToolScript\Rotation\RotateToTarget.cs" />
      <Compile Include="Assets\ToolScript\Transform\Mover.cs" />
+     <Compile Include="Assets\ToolScript\Transform\PhysicsMover.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">

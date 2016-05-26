@@ -9,6 +9,7 @@ public class OrbitTo : MonoBehaviour {
 	// distance from the pivot
 	public float pivotDistance = 5f;
 	public float rotSpeed = 10f;
+	public float limitY = 10f;
 
 	private float rotX = 0f;
 	private float rotY = 0f;
@@ -43,10 +44,10 @@ public class OrbitTo : MonoBehaviour {
 				this.pivotTransform.transform.position + // poosition target
 				this.meTransform.rotation * 			 // rotation camera
 				Vector3.up *							 // up
-				-this.pivotDistance;					 // distance
+				-this.pivotDistance;// distance
 	
-			this.prevMouseX = Screen.width / 2;
-			this.prevMouseY = Screen.height / 2;
+			this.prevMouseX = Screen.width/2;
+			this.prevMouseY = Screen.height/2;
 
 		}
 	}

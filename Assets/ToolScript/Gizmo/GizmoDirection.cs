@@ -8,7 +8,7 @@ public class GizmoDirection : MonoBehaviour {
 	public Transform ownerTransform = null;
 
 	// meters scale
-	[Range(0f, 100f)]
+	[Range(0f, 20f)]
 	public float range = 10f;
 
 	// overload native funcion
