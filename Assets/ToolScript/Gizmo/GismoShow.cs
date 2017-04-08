@@ -17,9 +17,6 @@ public class GismoShow : MonoBehaviour {
 		if (hide) {
 			return;
 		}
-			
-		// show me position
-		Gizmos.DrawIcon (this.transform.position, this.iconName, true);
 
 		// draw Color Sphere
 		Gizmos.color = Color.green;

@@ -34,3 +34,12 @@
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll.mdb
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.PlaymodeTestsRunner.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.Analytics.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.HoloLens.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.VR.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEditor.AppleTV.Extensions.dll

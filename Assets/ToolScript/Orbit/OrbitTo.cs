@@ -46,8 +46,8 @@ public class OrbitTo : MonoBehaviour {
 				Vector3.up *							 // up
 				-this.pivotDistance;// distance
 	
-			this.prevMouseX = Screen.width/2;
-			this.prevMouseY = Screen.height/2;
+			this.prevMouseX = horz;
+			this.prevMouseY = vert;
 
 		}
 	}

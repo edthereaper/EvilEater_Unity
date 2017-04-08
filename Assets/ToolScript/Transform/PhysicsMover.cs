@@ -4,11 +4,11 @@ using System.Collections;
 public class PhysicsMover : MonoBehaviour {
 
 	private CharacterController meCC = null;
-	private Mover meMover = null;
+	private MoverCameraFoward meMover = null;
 	// Use this for initialization
 	void Start () {
 		this.meCC = GetComponent<CharacterController> ();
-		this.meMover = GetComponent<Mover> ();
+		this.meMover = GetComponent<MoverCameraFoward> ();
 	}
 	
 	// Update is called once per frame

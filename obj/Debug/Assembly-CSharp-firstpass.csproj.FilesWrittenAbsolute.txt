@@ -15,3 +15,7 @@
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/eddy/Documents/Unity/EvilEater/Temp/bin/Debug/UnityEngine.VR.dll
